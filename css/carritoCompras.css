@@ -1,0 +1,19 @@
+.mt {
+  margin-top: 6%;
+}
+
+.border {
+  border-bottom: 1px solid rgba(187, 187, 187, 0.84);
+}
+
+.flex {
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+select {
+  width: 40%;
+}
