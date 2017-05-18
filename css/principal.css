@@ -8,6 +8,10 @@ a.sideTxt{
   text-decoration: none;
 }
 
+#imgProductos{
+	margin-top: 91px;
+}
+
 .navbar-inverse .navbar-nav > li > a:hover {
  text-decoration: underline;
 }
