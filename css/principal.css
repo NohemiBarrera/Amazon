@@ -1,11 +1,12 @@
-
-
-
-
-
-
-
-
+.imgHome{
+	/*padding: 30px;*/
+	width: 230px;
+}
+a.sideTxt{
+	font-size: 2.5em;
+	color: grey;
+  text-decoration: none;
+}
 
 .navbar-inverse .navbar-nav > li > a:hover {
  text-decoration: underline;
@@ -42,4 +43,4 @@
 }
 .gris{
  color: #ccc;
-}
+  }
