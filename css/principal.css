@@ -1,0 +1,46 @@
+.imgHome{
+	/*padding: 30px;*/
+	width: 230px;
+}
+a.sideTxt{
+	font-size: 2.5em;
+	color: grey;
+  text-decoration: none;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+ text-decoration: underline;
+}
+
+.navbar-collapse ul li {
+ padding-top: 0px;
+ padding-bottom: 0px;
+            }
+ .navbar-collapse ul li a {
+ padding-top: 0px;
+ padding-bottom: 0px;
+}
+
+.navbar-brand img {
+ width: 200px;
+ height: 40px;
+}
+
+.navbar-inverse {
+ background-color: #232f3e !important;
+}
+.busqueda{
+ background-color: #f3a847 !important;
+}
+.logotipo{
+ height: 100px;
+ margin-top: -22px !important;
+ margin-left: -70px !important;
+ margin-right: 39px !important;
+}
+.blanco{
+ color: white !important;
+}
+.gris{
+ color: #ccc;
+  }
