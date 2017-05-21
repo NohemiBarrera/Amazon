@@ -64,3 +64,25 @@ nav {
    top: -10px;
    color: #000;
 }
+
+/*footer*/
+#inicioPagina{
+   background-color:#555 ;
+}
+#inicioPagina:hover{
+   background-color:#777 ;
+}
+.gray-darker{
+  background-color: #222;
+  }
+.gray-dark{
+  background-color: #333;
+  }
+.gray{
+  background-color: #555;
+  }
+.gray-light{
+    background-color: #777;
+  }
+.gray-lighter:
+  background-color: #777;
