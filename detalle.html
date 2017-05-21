@@ -1,46 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Detalle de los items</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/detalle.css">
+    <link rel="stylesheet" type="text/css" href="css/principal.css">
 </head>
 
 <body>
+
+    <!-----Inicio nav general que va en todas las paginas del sitio de amazon-->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+                <img class="nav navbar-nav logotipo" src="img/amazonas.png">
+            </div>
+            <div class="navbar-collapse collapse" id="searchbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="blanco" href="about.html">Envios GRATIS y rápidos<br>Empieza tu prueba gratis</a></li>
+                    <li><a class="blanco" href="about.html">|</a></li>
+                    <li><a class="blanco" href="about.html">amazon prime</a></li>
+                </ul>
+                <form class="navbar-form">
+                    <div class="form-group" style="display:inline;">
+                        <div class="input-group" style="display:table;">
+                            <span class="input-group-addon" style="width:1%;">Todos los departamentos</span>
+                            <input class="form-control" name="search" placeholder="Search Here" autocomplete="off" autofocus="autofocus" type="text">
+                            <span class="input-group-addon busqueda" style="width:1%;"><span class="glyphicon glyphicon-search"></span></span>
+                        </div>
+                    </div>
+                </form>
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a class="blanco" href="about.html">Todos los<br>departamentos <span class="
+          glyphicon glyphicon-chevron-down"></span>
+        </a></li>
+                    <li>
+                        <a class="gris" href="about.html">
+                            <h4><small>Mi amazon.com.mx</h4></small></a>
+                    </li>
+                    <li>
+                        <a class="gris" href="about.html">
+                            <h4><small>Promociones</h4></small></a>
+                    </li>
+                    <li>
+                        <a class="gris" href="about.html">
+                            <h4><small>Vender</h4></small></a>
+                    </li>
+                    <li>
+                        <a class="gris" href="about.html">
+                            <h4><small>Ayuda</h4></small></a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="gris" href="about.html">Hola.identificate<br>Mi cuenta <span class="
+          glyphicon glyphicon-chevron-down"></span></a></li>
+                    <li><a class="gris" href="about.html">Prueba<br>Prime<span class="
+            glyphicon glyphicon-chevron-down"></span></a></li>
+                    <li><a class="gris" href="about.html">Wish<br>List<span class="
+              glyphicon glyphicon-chevron-down"></span></a></li>
+                    <li><a class="blanco" href="about.html"><span class="glyphicon glyphicon-shopping-cart"></span>Carrito
+              </a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </div>
+    </div>
+    <!-----Fin nav general que va en todas las paginas del sitio de amazon-->
+
     <!--------Inicio subNav------->
-   <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default mt-7"> <!--karla aqui le agregue una clase da margin top-->
         <div class="row">
-          <div class="col-md-12">
-           <h6 class="navbar-text">VideoJuegos</h6>
-           <h6 class="navbar-text">Lanzamientos</h6>
-           <h6 class="navbar-text">preventas</h6>
-           <h6 class="navbar-text">Xbox One</h6>
-           <h6 class="navbar-text">Xbox 360</h6>
-           <h6 class="navbar-text">PS4</h6>
-           <h6 class="navbar-text">PS3</h6>
-           <h6 class="navbar-text">PS Vita</h6>
-           <h6 class="navbar-text">Wii U</h6>
-           <h6 class="navbar-text">Wii</h6>
-           <h6 class="navbar-text">Nintendo 3DS</h6>
-           <h6 class="navbar-text">Nintendo DS</h6>
-           <h6 class="navbar-text">Los más comprados</h6>
-      </div>
-     </div>  
-  </nav>
+            <div class="col-md-12">
+                <h6 class="navbar-text">VideoJuegos</h6>
+                <h6 class="navbar-text">Lanzamientos</h6>
+                <h6 class="navbar-text">preventas</h6>
+                <h6 class="navbar-text">Xbox One</h6>
+                <h6 class="navbar-text">Xbox 360</h6>
+                <h6 class="navbar-text">PS4</h6>
+                <h6 class="navbar-text">PS3</h6>
+                <h6 class="navbar-text">PS Vita</h6>
+                <h6 class="navbar-text">Wii U</h6>
+                <h6 class="navbar-text">Wii</h6>
+                <h6 class="navbar-text">Nintendo 3DS</h6>
+                <h6 class="navbar-text">Nintendo DS</h6>
+                <h6 class="navbar-text">Los más comprados</h6>
+            </div>
+        </div>
+    </nav>
     <!--------Fin subNav------->
 
     <!--------Inicio Textito suelto abajo del nav------->
-      <!--mini nav de volver a resultados-->
-      <div class="row">
-          <div class="col-md-12">
-              <ul class="nav nav-pills">
-                  <li role="presentation" class="disabled"><a href="#">Volver a los resultados de búesqueda de "nintendo switch"</a></li>
-            </ul>      
+    <!--mini nav de volver a resultados-->
+    <div class="row">
+        <div class="col-md-12">
+            <ul class="nav nav-pills">
+                <li role="presentation" class="disabled"><a href="#">Volver a los resultados de búesqueda de "nintendo switch"</a></li>
+            </ul>
         </div>
     </div>
     <!--------Fin Textito suelto abajo del nav------->
-    
+
 
     <!--------Inicio areaSuperior Con galeria------->
     <section class="row">
@@ -70,4 +137,5 @@
     <!--------Fin areaSuperior Con galeria------->
 
 </body>
+
 </html>
