@@ -12,6 +12,10 @@
 .mt-7{
     margin-top: 7%;
 }
+
+.ml-2{
+    margin-left: 2%
+}
 /*----Estilos globales para este index----*/
 
 
@@ -32,6 +36,10 @@
     margin-top: 10%;
     font-size: 2vh;
     font-family: sans-serif;
+}
+
+.orange{
+    color: #eb6f14;
 }
 
 /*-------Fin Estilos Mone-----*/
