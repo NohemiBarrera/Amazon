@@ -1,6 +1,10 @@
 .contenido {
   margin-top: 9%;
 }
+.sizeInput {
+  width: 100%;
+  height: 5px;
+}
 .arriba {
   margin-top: -15%;
 }
