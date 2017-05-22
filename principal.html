@@ -5,50 +5,126 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/principal.css">
 </head>
 <body>
-<!--slide-->
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">  
-<!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <img src="img/amazon-dummy-carrusel-home.jpg">   
+<!--navbar-->
+ <div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <img class="nav navbar-nav logotipo" src="img/amazonas.png"> 
+    </div>
+    <div class="navbar-collapse collapse" id="searchbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a class="blanco"href="about.html">Envios GRATIS y rápidos<br>Empieza tu prueba gratis</a></li>
+        <li><a class="blanco"href="about.html">|</a></li>
+        <li><a class="blanco" href="about.html">amazon prime</a></li> 
+      </ul>
+      <form class="navbar-form">
+        <div class="form-group" style="display:inline;">
+          <div class="input-group" style="display:table;">
+            <span class="input-group-addon" style="width:1%;">Todos los departamentos</span>
+            <input class="form-control" name="search" placeholder="Search Here" autocomplete="off" autofocus="autofocus" type="text">
+            <span class="input-group-addon busqueda" style="width:1%;"><span class="glyphicon glyphicon-search"></span></span>  
+          </div>
+        </div>
+      </form>
+      <ul class="nav navbar-nav navbar-left">
+        <li><a class="blanco" href="about.html">Todos los<br>departamentos <span class="
+          glyphicon glyphicon-chevron-down"></span>
+        </a></li>
+        <li><a class="gris" href="about.html"><h4><small>Mi amazon.com.mx</h4></small></a></li>
+        <li><a class="gris" href="about.html"><h4><small>Promociones</h4></small></a></li>
+        <li><a class="gris" href="about.html"><h4><small>Vender</h4></small></a></li>
+        <li><a class="gris" href="about.html"><h4><small>Ayuda</h4></small></a></li> 
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a class="gris" href="about.html">Hola.identificate<br>Mi cuenta <span class="
+          glyphicon glyphicon-chevron-down"></span></a></li>
+          <li><a class="gris" href="about.html">Prueba<br>Prime<span class="
+            glyphicon glyphicon-chevron-down"></span></a></li>
+            <li><a class="gris" href="about.html">Wish<br>List<span class="
+              glyphicon glyphicon-chevron-down"></span></a></li>
+              <li><a class="blanco" href="about.html"><span class="glyphicon glyphicon-shopping-cart"></span>Carrito
+              </a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
       </div>
-<!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>  
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>  
-    </a>
     </div>
-  </div>
+<!--fin navbar-->
 <!--slide-->
-<!--imagenes productos-->
-<!--imagenes productos-->
-<!--sidebar-->
-<section class="container">
-  <div class="col-sm-3 text-center"> 
-    <img src="img/amazon-dummy-busqueda.jpg">
-  </div>
-  <div class="col-sm-3 text-center"> 
-    <img src="img/amazon-dummy-busqueda.jpg">
-  </div>
-  <div class="col-sm-4 text-center"> 
-    <img src="img/amazon-dummy-busqueda.jpg">
-  </div>
-    <div class="container-fluid text-center">    
-  <div class="row content">
-    <div class="col-sm-2 sidenav">
-      <h3><small>Lo más vendido</small></h3>
-      <a href="#">1.- <img src="img/amazon-dummy2.jpg"></a>
-      <br>
-      <a href="#">2.- <img src="img/amazon-dummy2.jpg"></a>
-      <br>
-      <a href="#">3.- <img src="img/amazon-dummy2.jpg"></a>
+<section class="container" id="imgProductos">
+  <div class="row">
+    <div class="col-md-12">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">  
+<!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="img/amazon-dummy-carrusel-home.jpg">   
+          </div>
+    <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>  
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>  
+        </a>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
-<!--sidebar-->
+  <br>
+<!--fin slide-->
+<!--imagenes productos-->
+<section class="container">
+  <div class="row">
+  <div class="col-sm-3 col-xs-6 text-center"> 
+    <img src="img/amazon-dummy-busqueda.jpg" class="imgHome">
+    <p>Ut enim ad minim veniam</p>
+    <img src="img/pc.jpg" class="imgHome">
+    <p>Ut enim ad minim veniam</p>
+  </div>
+  <div class="col-sm-3 col-xs-6 text-center"> 
+    <img src="img/pc.jpg" class="imgHome">
+    <p>Ut enim ad minim veniam</p>
+    <img src="img/amazon-dummy-busqueda.jpg" class="imgHome">
+    <p>Ut enim ad minim veniam</p>
+  </div>
+  <div class="col-sm-4 col-xs-6 text-center"> 
+    <img src="img/amazon-dummy-busqueda.jpg" class="imgHome">
+    <p>Ut enim ad minim veniam</p>
+    <img src="img/pc.jpg" class="imgHome">
+    <p>Ut enim ad minim veniam</p>
+  </div>
+  <!--fin imagenes productos-->
+  <!--sidebar-->
+    <div class="col-sm-2 col-xs-6 sidenav" id="sidebar">
+      <h4><small>Lo más vendido en Televisiones</small></h4>
+      <a href="#" class="sideTxt">1 <img src="img/amazon-dummy2.jpg"></a>
+      <br>
+      <a href="#" class="sideTxt">2 <img src="img/amazon-dummy2.jpg"></a>
+      <br>
+      <a href="#" class="sideTxt">3 <img src="img/amazon-dummy2.jpg"></a>
+      <br>
+      <a href="#" class="sideTxt">4 <img src="img/amazon-dummy2.jpg"></a>
+      <h4><small>Lo más vendido en Televisiones</small></h4>
+      <a href="#" class="sideTxt">1 <img src="img/amazon-dummy2.jpg"></a>
+      <br>
+      <a href="#" class="sideTxt">2 <img src="img/amazon-dummy2.jpg"></a>
+      <br>
+      <a href="#" class="sideTxt">3 <img src="img/amazon-dummy2.jpg"></a>
+    </div>
+  </div>
+</section>
+<br>
+<!--fin sidebar-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
 </body>

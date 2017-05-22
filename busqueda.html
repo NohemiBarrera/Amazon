@@ -5,10 +5,553 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foundation for Sites</title>
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/busqueda.css">
+    <link rel="stylesheet" href="css/principal.css">
   </head>
   <body>
-    
+    <header>
+      <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <img class="nav navbar-nav logotipo" src="img/amazonas.png">
+      </div>
+      <div class="navbar-collapse collapse" id="searchbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a class="blanco"href="about.html">Envios GRATIS y rápidos<br>Empieza tu prueba gratis</a></li>
+          <li><a class="blanco"href="about.html">|</a></li>
+          <li><a class="blanco" href="about.html">amazon prime</a></li>
+        </ul>
+        <form class="navbar-form">
+          <div class="form-group" style="display:inline;">
+            <div class="input-group" style="display:table;">
+              <span class="input-group-addon" style="width:1%;">Todos los departamentos</span>
+              <input class="form-control" name="search" placeholder="Search Here" autocomplete="off" autofocus="autofocus" type="text">
+              <span class="input-group-addon busqueda" style="width:1%;"><span class="glyphicon glyphicon-search"></span></span>
+            </div>
+          </div>
+        </form>
+        <ul class="nav navbar-nav navbar-left">
+          <li><a class="blanco" href="about.html">Todos los<br>departamentos <span class="
+            glyphicon glyphicon-chevron-down"></span>
+          </a></li>
+          <li><a class="gris" href="about.html"><h4><small>Mi amazon.com.mx</h4></small></a></li>
+          <li><a class="gris" href="about.html"><h4><small>Promociones</h4></small></a></li>
+          <li><a class="gris" href="about.html"><h4><small>Vender</h4></small></a></li>
+          <li><a class="gris" href="about.html"><h4><small>Ayuda</h4></small></a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a class="gris" href="about.html">Hola.identificate<br>Mi cuenta <span class="
+            glyphicon glyphicon-chevron-down"></span></a></li>
+            <li><a class="gris" href="about.html">Prueba<br>Prime<span class="
+              glyphicon glyphicon-chevron-down"></span></a></li>
+              <li><a class="gris" href="about.html">Wish<br>List<span class="
+                glyphicon glyphicon-chevron-down"></span></a></li>
+                <li><a class="blanco" href="about.html"><span class="glyphicon glyphicon-shopping-cart"></span>Carrito
+                </a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="contenido">
+      <!-- Seccion consolas -->
+      <div class="row border">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <a href="#" class="consolas orange padding">Videojuegos</a>
+              <a href="#" class="consolas orange padding">Lanzamientos</a>
+              <a href="#" class="consolas orange padding">Preventas</a>
+              <a href="#" class="consolas orange padding">Xbox One</a>
+              <a href="#" class="consolas orange padding">Xbox 360</a>
+              <a href="#" class="consolas orange padding">PS4</a>
+              <a href="#" class="consolas orange padding">PS3</a>
+              <a href="#" class="consolas orange padding">PS vita</a>
+              <a href="#" class="consolas orange padding">Wii U</a>
+              <a href="#" class="consolas orange padding">Wii</a>
+              <a href="#" class="consolas orange padding">Nintendo 3DS</a>
+              <a href="#" class="consolas orange padding">Nintendo DS</a>
+              <a href="#" class="consolas orange padding">Los más vendidos</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Seccion busqueda -->
+      <div class="panel panel-default arriba">
+        <div class="panel-body">
+        <div class="col-md-6">
+          <h5>Resultados de 1 a 12 en <strong>Videojuegos: </strong><a href="#" class="nintendo">"nintendo switch"</a></h5>
+        </div>
+        <div class="col-md-2">
+            <h5 class="der">Ordenar por</h5>
+        </div>
+        <div class="col-md-2">
+          <div class="input-group">
+            <div class="input-group-btn">
+              <input type="text" class="form-control input-sm">
+              <button type="button" class="btn btn-default dropdown-toggle btn btn-sm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="caret"></span>
+              </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <span class="glyphicon glyphicon-th-list"></span>
+              <span class="glyphicon glyphicon-th-large"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <!-- Seccion filtros-->
+      <div class="row">
+          <div class="col-md-2 border borderR">
+            <h5 class="title5">Mostrar resultados para</h5>
+            <a href="#" class="orange titleStrong">Cualquier categoría</a>
+            <!-- Seccion filtro videojuegos -->
+            <p class="titleStrong">
+              <strong>Videojuegos</strong>
+            </p>
+            <ul> <span class="numero"></span>
+              <li class="elemento"><a href="#" class="consolas orange">Accesorios de Nintendo Switch <span class="numero"> (33)</span></a></li>
+              <li class="elemento"><a href="#" class="consolas orange">Juegos de Nintendo Switch <span class="numero">(12)</span></a></li>
+              <li class="elemento"><a href="#" class="consolas orange">Consolas de Nintendo Switch <span class="numero">(5)</span></a></li>
+              <li class="elemento"><a href="#" class="consolas orange">Juegos de Wii U <span class="numero">(5)</span></a></li>
+              <li class="elemento"><a href="#" class="consolas orange">Accesorios de Nintendo 64 <span class="numero">(3)</span></a></li>
+              <li class="elemento"><a href="#" class="consolas orange">Consolas, Juegos y Accesorios de Nintendo Entertainment System (NES) <span class="numero">(5)</span></a></li>
+              <li class="elemento"><a href="#" class="consolas orange">Consolas, Juegos y Accesorios de Sistemas Heredados (18)</a></li>
+              <li class="elemento"><a href="#" class="consolas orange">Consolas de Wii U <span class="numero">(2)</span></a></li>
+              <li class="elemento"><a href="#" class="consolas orange">Accesorios de Wii U <span class="numero">(3)</span></a></li>
+              <li class="elemento"><a href="#" class="consolas orange">Accesorios de Nintendo 3DS <span class="numero">(3)</span></a></li>
+              <li class="elemento"><a href="#" class="consolas orange">+ Ver más</a></li>
+            </ul>
+            <h5 class="title5">Refinar por</h5>
+            <p class="titleStrong">
+              <strong>Amazon Prime</strong>
+            </p>
+            <ul>
+              <li class="elemento">
+                <img class="icon" src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <img class="prime"
+             src="https://images-na.ssl-images-amazon.com/images/G/31/marketing/prime/detail_page/checkPrime._CB276624754_.png" alt="">
+              </li>
+            </ul>
+            <p class="titleStrong">
+              <strong>Marca</strong>
+            </p>
+            <ul>
+              <li class="elemento">
+                <img class="icon" src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#" class="consolas orange">Nintendo</a>
+              </li>
+              <li class="elemento">
+                <img class="icon" src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#" class="consolas orange">Performance Designed Products</a>
+              </li>
+              <li class="elemento">
+                <img  src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#" class="consolas orange">POWER A</a>
+              </li>
+              <li class="elemento">
+                <img  src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#" class="consolas orange">Hori</a>
+              </li>
+              <li class="elemento">
+                <img  src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#" class="consolas orange">Hyperkin Inc</a>
+              </li>
+              <li class="elemento">
+                <img  src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#" class="consolas orange">Ubisoft</a>
+              </li>
+              <li class="elemento">
+                <img  src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#" class="consolas orange">Konami</a>
+              </li>
+              <li class="elemento">
+                <img  src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#" class="consolas orange">Capcom</a>
+              </li>
+              <li class="elemento">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#" class="consolas orange">Sega</a>
+              </li>
+              <li class="elemento">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#" class="consolas orange">XSOURCE</a>
+              </li>
+              <li class="elemento">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#"class="consolas orange">NEXiLUX</a>
+              </li>
+              <li class="elemento">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#"class="consolas orange">Innovation</a>
+              </li>
+              <li class="elemento">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#"class="consolas orange">Activision</a>
+              </li>
+              <li class="elemento">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#"class="consolas orange">Fintie</a>
+              </li>
+              <li class="elemento">
+                <a href="#"class="consolas orange">+ Ver más</a>
+              </li>
+            </ul>
+            <p class="titleStrong">
+              <strong>Clasificación por Edad de Video Games</strong>
+            </p>
+            <ul>
+              <li class="elemento">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#" class="consolas orange">A partir de 10</a>
+              </li>
+              <li class="elemento">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#" class="consolas orange">Pendientes de Calificación</a>
+              </li>
+              <li class="elemento">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#" class="consolas orange">Todos los Públicos</a>
+              </li>
+              <li class="elemento">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#" class="consolas orange">Adolescentes</a>
+              </li>
+            </ul>
+            <p class="titleStrong">
+              <strong>Género de Videojuegos</strong>
+            </p>
+            <ul>
+              <li class="elemento">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#" class="consolas orange">Aventura</a>
+              </li>
+              <li class="elemento">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#" class="consolas orange">Acción</a>
+              </li>
+              <li class="elemento">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#" class="consolas orange">Carreras</a>
+              </li>
+              <li class="elemento">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#" class="consolas orange">Peleas</a>
+              </li>
+              <li class="elemento">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#" class="consolas orange">Sala de Juegos</a>
+              </li>
+              <li class="elemento">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#" class="consolas orange">Música y Baile</a>
+              </li>
+            </ul>
+            <!-- Seccion filtro por días-->
+            <p class="titleStrong">
+              <strong>Género de Videojuegos</strong>
+            </p>
+            <ul>
+              <li class="elemento">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#" class="consolas orange">Últimos 30 días <span class="numero">(28)</span></a>
+              </li>
+              <li class="elemento">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#" class="consolas orange">Últimos 90 días <span class="numero">(125)</span></a>
+              </li>
+              <li class="elemento">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#" class="consolas orange">Próximos 90 días <span class="numero">(11)</span></a>
+              </li>
+            </ul>
+            <!-- Seccion filtro opinion clientes -->
+            <p class="titleStrong">
+              <strong>Opinión media de los clientes</strong>
+            </p>
+            <!-- Seccion filtro precio -->
+            <p class="titleStrong">
+              <strong>Precio</strong>
+            </p>
+            <ul>
+              <li class="elemento">
+                <a href="#" class="consolas orange">Menos de $350 <span class="numero">(27)</span></a>
+              </li>
+              <li class="elemento">
+                <a href="#" class="consolas orange">$350 - $750 <span class="numero">(56)</span></a>
+              </li>
+              <li class="elemento">
+                <a href="#" class="consolas orange">$750 - $1500 <span class="numero">(66)</span></a>
+              </li>
+              <li class="elemento">
+                <a href="#" class="consolas orange">$1500 - $3000 <span class="numero">(15)</span></a>
+              </li>
+              <li class="elemento">
+                <a href="#" class="consolas orange">Más de $3000<span class="numero">(82)</span></a>
+              </li>
+              <li>
+                <span>$</span>
+                <input type="text" name="" value="">
+                <span>a $</span>
+                <input type="text" name="" value="">
+              </li>
+            </ul>
+            <!-- Sección filtro descuento -->
+            <p class="titleStrong">
+              <strong>Descuento</strong>
+            </p>
+            <ul>
+              <li class="elemento">
+                <a href="#" class="consolas orange">10% de descuento<span class="numero">(75)</span></a>
+              </li>
+              <li class="elemento">
+                <a href="#" class="consolas orange">25% de descuento<span class="numero">(36)</span></a>
+              </li>
+              <li class="elemento">
+                <a href="#" class="consolas orange">50% de descuento<span class="numero">(1)</span></a>
+              </li>
+              <li class="elemento">
+                <span class="numero">70% de descuento o más</span>
+              </li>
+            </ul>
+            <!-- Sección filtro vendedor -->
+            <p class="titleStrong">
+              <strong>Vendedor</strong>
+            </p>
+            <ul>
+              <li class="elemento">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#" class="consolas orange">Amazon EE.UU <span class="numero">(105)</span></a>
+              </li>
+              <li class="elemento">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#" class="consolas orange">Amazon México <span class="numero">(83)</span></a>
+              </li>
+              <li class="elemento">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#" class="consolas orange">uShopMall <span class="numero">(80)</span></a>
+              </li>
+              <li class="elemento">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#" class="consolas orange">GAMELAND SA DE CV <span class="numero">(58)</span></a>
+              </li>
+              <li class="elemento">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#" class="consolas orange">G Dreamer <span class="numero">(36)</span></a>
+              </li>
+              <li class="elemento">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#" class="consolas orange">START GAMES <span class="numero">(27)</span></a>
+              </li>
+              <li class="elemento">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#" class="consolas orange">Acebeach <span class="numero">(22)</span></a>
+              </li>
+              <li class="elemento">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#" class="consolas orange">Camelot Games. <span class="numero">(18)</span></a>
+              </li>
+              <li class="elemento">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#" class="consolas orange">Ravenholm Electronics <span class="numero">(17)</span></a>
+              </li>
+              <li class="elemento">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#" class="consolas orange">Savfor U <span class="numero">(16)</span></a>
+              </li>
+              <li class="elemento">
+                <a href="#">+ Ver más</a>
+              </li>
+            </ul>
+            <!-- Sección filtro disponibilidad-->
+            <p class="titleStrong">
+              <strong>Disponibilidad</strong>
+            </p>
+            <ul>
+              <li class="elemento">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/33/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB341434243_.png">
+                <a href="#" class="consolas orange">Incluir no disponibles</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Sección de productos-->
+          <div class="col-md-10">
+            <div class="row border list-group">
+              <div class="  col-md-3">
+                <img src="img/amazon-dummy-busqueda.jpg" alt="">
+              </div>
+              <div class="col-md-9">
+                <a href="">
+                  <h4>Nintendo Switch - Consola, color gris - Edición Estandar - Nacional - Standard Edition<span class="">Nintendo Switch</span></h4>
+                </a>
+                <div class="">
+                  <span class="">de Nintendo</span>
+                </div>
+                <div class="">
+                  <a class="">
+                    <h5>Nacional</h5>
+                  </a>
+                </div>
+                 <div>
+                   <span class="red"><strong>$9,373.723</strong></span>
+                   <span class=""><s>$9,999.00</s></span>
+                 </div>
+                 <div class="prime">
+                   <img class="prime" src="https://images-na.ssl-images-amazon.com/images/G/31/marketing/prime/detail_page/checkPrime._CB276624754_.png" alt="">
+                 </div>
+                 <div class="">
+                   <span class="">Recibelo para el
+                  <span class="">viernes, 19 de mayo
+                 </span>
+               </span>
+             </div>
+             <div class="">
+               <span class="">Envío GRATIS</span>
+             </div>
+             <div class="">
+               <div class="">
+                 <span class="">Más opciones de compra</span>
+               </div>
+               <div class="">
+                   <span class="red">$7,899.00</span>
+                   <a href="#">
+                     <span class="">nuevos desde</span>
+                   </a>
+                   <span class=""></span>
+                   <span class="">(7 ofertas)</span>
+               </div>
+             </div>
+               <div class="">
+                 <span name="">
+                   <span class="">
+                     <span class="icon">4.5 de un máximo de 5 estrellas</span>
+                     <i class=""></i>
+                   </span>
+                 </span>
+             </div>
+            </div>
+          </div>
+            <div class="list-group border row">
+              <div class="  col-md-3">
+                <img src="img/amazon-dummy-busqueda.jpg" alt="">
+              </div>
+              <div class="col-md-9">
+                <a href="">
+                  <h4>Nintendo Switch - Consola, color gris - Edición Estandar - Nacional - Standard Edition<span class="">Nintendo Switch</span></h4>
+                </a>
+                <div class="">
+                  <span class="">de Nintendo</span>
+                </div>
+                <div class="">
+                  <a class="">
+                    <h5>Nacional</h5>
+                  </a>
+                </div>
+                 <div>
+                   <span class="red"><strong>$9,373.723</strong></span>
+                   <span class=""><s>$9,999.00</s></span>
+                 </div>
+                 <div class="prime">
+                   <img class="prime" src="https://images-na.ssl-images-amazon.com/images/G/31/marketing/prime/detail_page/checkPrime._CB276624754_.png" alt="">
+                 </div>
+                 <div class="">
+                   <span class="">Recibelo para el
+                  <span class="">viernes, 19 de mayo
+                 </span>
+               </span>
+             </div>
+             <div class="">
+               <span class="">Envío GRATIS</span>
+             </div>
+             <div class="">
+               <div class="">
+                 <span class="">Más opciones de compra</span>
+               </div>
+               <div class="">
+                   <span class="red">$7,899.00</span>
+                   <a href="#">
+                     <span class="">nuevos desde</span>
+                   </a>
+                   <span class=""></span>
+                   <span class="">(7 ofertas)</span>
+               </div>
+             </div>
+               <div class="">
+                 <span name="">
+                   <span class="">
+                     <span class="icon">4.5 de un máximo de 5 estrellas</span>
+                     <i class=""></i>
+                   </span>
+                 </span>
+             </div>
+            </div>
+          </div>
+            <div class="list-group border row">
+              <div class="  col-md-3">
+                <img src="img/amazon-dummy-busqueda.jpg" alt="">
+              </div>
+              <div class="col-md-9">
+                <a href="">
+                  <h4>Nintendo Switch - Consola, color gris - Edición Estandar - Nacional - Standard Edition<span class="">Nintendo Switch</span></h4>
+                </a>
+                <div class="">
+                  <span class="">de Nintendo</span>
+                </div>
+                <div class="">
+                  <a class="">
+                    <h5>Nacional</h5>
+                  </a>
+                </div>
+                 <div>
+                   <span class="red"><strong>$9,373.723</strong></span>
+                   <span class=""><s>$9,999.00</s></span>
+                 </div>
+                 <div class="prime">
+                   <img class="prime" src="https://images-na.ssl-images-amazon.com/images/G/31/marketing/prime/detail_page/checkPrime._CB276624754_.png" alt="">
+                 </div>
+                 <div class="">
+                   <span class="">Recibelo para el
+                  <span class="">viernes, 19 de mayo
+                 </span>
+               </span>
+             </div>
+             <div class="">
+               <span class="">Envío GRATIS</span>
+             </div>
+             <div class="">
+               <div class="">
+                 <span class="">Más opciones de compra</span>
+               </div>
+               <div class="">
+                   <span class="red">$7,899.00</span>
+                   <a href="#">
+                     <span class="">nuevos desde</span>
+                   </a>
+                   <span class=""></span>
+                   <span class="">(7 ofertas)</span>
+               </div>
+             </div>
+               <div class="">
+                 <span name="">
+                   <span class="">
+                     <span class="icon">4.5 de un máximo de 5 estrellas</span>
+                     <i class=""></i>
+                   </span>
+                 </span>
+             </div>
+            </div>
+          </div>
+        </div>
+    </section>
   </body>
 </html>

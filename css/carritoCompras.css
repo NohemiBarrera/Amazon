@@ -14,6 +14,94 @@ li {
   list-style: none;
 }
 
+
+.video {
+  color: #fff;
+}
 select {
   width: 40%;
 }
+nav {
+  background-color: #232F3E;
+}
+.pt {
+  padding-top: 1%;
+}
+.forma {
+  border: 1px solid rgba(187, 187, 187, 0.84);
+  font-size: 13px;
+  padding: 1%;
+}
+
+.subtotal {
+  background-color: #F3F3F3;
+}
+
+.fa-check {
+  color: rgb(111, 221, 83);
+}
+
+.ml{
+  margin-left: 5%;
+}
+
+.hr-o {
+  font-family: font-awesome;
+
+  border: 1px solid rgba(187, 187, 187, 0.84);
+  max-width: 250px;
+  text-align: center;
+}
+
+.hr-o::after {
+   content: "o";
+   font-family: FontAwesome;
+   display: inline-block;
+   position: relative;
+   font-size: 1em;
+   padding: 0 .25em;
+   background: #F3F3F3;
+   top: -10px;
+   color: #000;
+}
+
+/*footer*/
+#inicioPagina{
+   background-color:#37475a;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+#inicioPagina:hover{
+   background-color:#485769;
+}
+
+#conocenos{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: solid 1px #555;
+}
+.texto-gris{
+  color:#767676;
+  padding-left: 3%;
+  padding-right: 1%;
+}
+footer a{
+  color:white;
+  text-decoration:none;
+}
+footer a:hover{
+  color:white;
+  text-decoration-color:white;
+}
+
+footer img{
+  padding-top: 20px;
+}
+#paises{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#legales{
+  background-color: #222 !important;
+  padding: 15px;
+  }

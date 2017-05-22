@@ -1,166 +1,167 @@
-<!doctype html>
-<html class="no-js" lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
-  </head>
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/principal.css">
+</head>
   <body>
-    <div class="row">
-      <div class="large-12 columns">
-        <h1>Welcome to Foundation</h1>
-      </div>
+   <div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <img class="nav navbar-nav logotipo" src="img/amazonas.png"> 
     </div>
-
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="callout">
-          <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-          <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-          <p>Once you've exhausted the fun in this document, you should check out:</p>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://zurb.com/university/code-skills">Foundation Code Skills</a><br />These online courses offer you a chance to better understand how Foundation works and how you can master it to create awesome projects.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://foundation.zurb.com/forum">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowlege.</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-4 medium-4 medium-push-2 columns">
-              <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-            </div>
-            <div class="large-4 medium-4 medium-pull-2 columns">
-              <p><a href="https://twitter.com/ZURBfoundation">@zurbfoundation</a><br />Ping us on Twitter if you have questions. When you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-            </div>
+    <div class="navbar-collapse collapse" id="searchbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a class="blanco"href="about.html">Envios GRATIS y rápidos<br>Empieza tu prueba gratis</a></li>
+        <li><a class="blanco"href="about.html">|</a></li>
+        <li><a class="blanco" href="about.html">amazon prime</a></li> 
+      </ul>
+      <form class="navbar-form">
+        <div class="form-group" style="display:inline;">
+          <div class="input-group" style="display:table;">
+            <span class="input-group-addon" style="width:1%;">Todos los departamentos</span>
+            <input class="form-control" name="search" placeholder="Search Here" autocomplete="off" autofocus="autofocus" type="text">
+            <span class="input-group-addon busqueda" style="width:1%;"><span class="glyphicon glyphicon-search"></span></span>  
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="large-8 medium-8 columns">
-        <h5>Here&rsquo;s your basic grid:</h5>
-        <!-- Grid Example -->
-
-        <div class="row">
-          <div class="large-12 columns">
-            <div class="primary callout">
-              <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.callout element so you can see where the columns are - it's not required at all for the grid.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-6 medium-6 columns">
-            <div class="primary callout">
-              <p>Six columns</p>
-            </div>
-          </div>
-          <div class="large-6 medium-6 columns">
-            <div class="primary callout">
-              <p>Six columns</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="primary callout">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="primary callout">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="primary callout">
-              <p>Four columns</p>
-            </div>
-          </div>
-        </div>
-
-        <hr />
-
-        <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-        <form>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-12.columns" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <div class="row collapse">
-                <label>Input Label</label>
-                <div class="input-group">
-                  <input type="text" placeholder="small-9.columns" class="input-group-field" />
-                  <span class="input-group-label">.com</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Select Box</label>
-              <select>
-                <option value="husker">Husker</option>
-                <option value="starbuck">Starbuck</option>
-                <option value="hotdog">Hot Dog</option>
-                <option value="apollo">Apollo</option>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-6 medium-6 columns">
-              <label>Choose Your Favorite</label>
-              <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-              <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-            </div>
-            <div class="large-6 medium-6 columns">
-              <label>Check these out</label>
-              <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-              <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Textarea Label</label>
-              <textarea placeholder="small-12.columns"></textarea>
-            </div>
-          </div>
-        </form>
-      </div>
-
-      <div class="large-4 medium-4 columns">
-        <h5>Try one of these buttons:</h5>
-        <p><a href="#" class="button">Simple Button</a><br/>
-        <a href="#" class="success button">Success Btn</a><br/>
-        <a href="#" class="alert button">Alert Btn</a><br/>
-        <a href="#" class="secondary button">Secondary Btn</a></p>
-        <div class="callout">
-          <h5>So many components, girl!</h5>
-          <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-          <a href="http://foundation.zurb.com/sites/docs/" class="small button">Go to Foundation Docs</a>
+      </form>
+      <ul class="nav navbar-nav navbar-left">
+        <li><a class="blanco" href="about.html">Todos los<br>departamentos <span class="
+          glyphicon glyphicon-chevron-down"></span>
+        </a></li>
+        <li><a class="gris" href="about.html"><h4><small>Mi amazon.com.mx</h4></small></a></li>
+        <li><a class="gris" href="about.html"><h4><small>Promociones</h4></small></a></li>
+        <li><a class="gris" href="about.html"><h4><small>Vender</h4></small></a></li>
+        <li><a class="gris" href="about.html"><h4><small>Ayuda</h4></small></a></li> 
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a class="gris" href="about.html">Hola.identificate<br>Mi cuenta <span class="
+          glyphicon glyphicon-chevron-down"></span></a></li>
+          <li><a class="gris" href="about.html">Prueba<br>Prime<span class="
+            glyphicon glyphicon-chevron-down"></span></a></li>
+            <li><a class="gris" href="about.html">Wish<br>List<span class="
+              glyphicon glyphicon-chevron-down"></span></a></li>
+              <li><a class="blanco" href="about.html"><span class="glyphicon glyphicon-shopping-cart"></span>Carrito
+              </a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
         </div>
       </div>
     </div>
+    
+    
+    <!----------Inicio Footer--------->
+  <footer>
+      <div class="row blanco center" id="inicioPagina" >
+        <h6 class="col-md-2 col-md-offset-5"><stong>Inicio de página</strong></h6>
+      </div>
+      <div class="row blanco navbar-inverse"  id="conocenos">
+        <div class="col-md-2 col-md-offset-2">
+          <h5><strong>Conócenos</strong></h5>
+          <ul class="list-unstyled small">
+            <li>
+              <a href="#">Trabajar en Amazon</a>
+            </li>
+            <li>
+              <a href="#">Información corporativa</a>
+            </li>
+            <li>
+              <a href="#">Departamento de prensa</a>
+            </li>
+          </ul>
+        </div>
 
+        <div class="col-md-2">
+          <h5><strong>Gana dinero con nosotros</strong></h5>
+          <ul class="list-unstyled small">
+            <li>
+              <a href="#">Invita y Gana $150</a>
+            </li>
+            <li>
+              <a href="#">Vender en Amazon</a>
+            </li>
+            <li>
+              <a href="#">Publica tu libro en Kindle</a>
+            </li>
+            <li>
+              <a href="#" >Programa de afiliados</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h5 ><strong>Podemos ayudarte</strong></h5>
+          <ul class="list-unstyled small">
+            <li >
+              <a href="#">Devolver o reemplazar productos</a>
+            </li>
+            <li>
+              <a href="#">Amazon Prime</a>
+            </li>
+            <li>
+              <a href="#">Gestionar contenido y dispositivos</a>
+            </li>
+            <li>
+              <a href="#">Ayuda</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h5 class=""><strong>Métodos de pago</strong></h5>
+          <ul class="list-unstyled small">
+            <li class="nav_first">
+              <a href="#" >Tarjetas de crédito y débito</a>
+            </li>
+            <li>
+              <a href="#">Tarjetas de regalo</a>
+            </li>
+            <li> <a href="#">Meses sin intereses</a>
+            </li>
+          </ul>
+        </div>
+        <span class="divider"></span>
+      </div>
+
+      <div class="row navbar-inverse ">
+        <a href="#">
+          <img class="center-block" src="img/logo_footer.jpg">
+        </a>
+      </div>
+      <div class="row  navbar-inverse blanco small text-center" id="paises">
+        <a href="#">Australia</a> |
+        <a href="#">Alemania</a> |
+        <a href="#">Brasil</a> |
+        <a href="#">Canadá</a> |
+        <a href="#">China</a> |
+        <a href="#">España</a> |
+        <a href="#">Estados Unidos</a> |
+        <a href="#"> Francia </a> |
+        <a href="#">India</a> |
+        <a href="#">Italia</a> |
+        <a href="#">Japón</a> |
+        <a href="#">Países Bajos</a> |
+        <a href="#">Reino Unido</a><span class="texto-gris"> Y tambien:</span>
+        <a href="#">Amazon Web Services</a>
+      </div>
+      <div class="row navbar-inverse text-center small blanco" id="legales">
+        <a href="#">Condiciones de uso</a> |
+        <a href="#">Aviso de privacidad</a>
+        <span class="texto-gris">© 1996-2017, Amazon.com, Inc. o afiliados. Todos los derechos reservados.</span>
+      </div>
+  </footer>
+<!--------------Fin Footer---------->
+
+    
+    
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>

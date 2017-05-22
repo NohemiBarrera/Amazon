@@ -7,97 +7,299 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/carritoCompras.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/principal.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Carrito de Compras</title>
 </head>
 
 <body>
-  <section>
+  <header class="navbar navbar-inverse">
     <div class="container">
-      <div class="row">
-        <div class="col-md-9">
-          <div class="row border">
-            <div class="col-md-6">
-              <h2>Carrito</h2>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+       </button>
+        <div class="navbar-brand">
+          <img class="nav navbar-nav logotipo" src="img/home.jpg">
+        </div>
+      </div>
+      <div class="navbar-collapse collapse" id="searchbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a class="blanco" href="about.html">Prime Video</a></li>
+          <li><a class="blanco" href="about.html">|</a></li>
+          <li><a class="blanco" href="about.html">Empieza tu prueba gratis</a></li>
+        </ul>
+        <form class="navbar-form">
+          <div class="form-group" style="display:inline;">
+            <div class="input-group" style="display:table;">
+              <span class="input-group-addon" style="width:1%;">Todos los departamentos</span>
+              <input class="form-control" name="search" placeholder="Search Here" autocomplete="off" autofocus="autofocus" type="text">
+              <span class="input-group-addon busqueda" style="width:1%;"><span class="glyphicon glyphicon-search"></span></span>
             </div>
-            <div class="col-md-3 mt text-center">
-              <span>Precio</span>
-            </div>
-            <div class="col-md-3 mt text-center">
-              <span>Cant.</span>
+          </div>
+        </form>
+        <ul class="nav navbar-nav navbar-left">
+          <li><a class="blanco" href="about.html">Todos los<br>departamentos <span class="
+           glyphicon glyphicon-chevron-down"></span>
+         </a></li>
+          <li><a class="gris" href="about.html"><h4><small>Mi amazon.com.mx</h4></small></a></li>
+          <li><a class="gris" href="about.html"><h4><small>Promociones</h4></small></a></li>
+          <li><a class="gris" href="about.html"><h4><small>Vender</h4></small></a></li>
+          <li><a class="gris" href="about.html"><h4><small>Ayuda</h4></small></a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a class="gris" href="about.html">Hola.identificate<br>Mi cuenta <span class="
+           glyphicon glyphicon-chevron-down"></span></a></li>
+          <li><a class="gris" href="about.html">Prueba<br>Prime<span class="
+             glyphicon glyphicon-chevron-down"></span></a></li>
+          <li><a class="gris" href="about.html">Wish<br>List<span class="
+               glyphicon glyphicon-chevron-down"></span></a></li>
+          <li><a class="blanco" href="about.html"><span class="glyphicon glyphicon-shopping-cart"></span>Carrito
+               </a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+    </div>
+  </header>
+
+  <section id="productosCarrito">
+    <div class="contenedorGeneral row">
+      <div class="contenedorInfo col-md-8">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-9">
+              <div class="row border">
+                <div class="col-md-6">
+                  <h3>Carrito</h3>
+                </div>
+                <div class="col-md-3 mt text-center">
+                  <span>Precio</span>
+                </div>
+                <div class="col-md-3 mt text-center">
+                  <span>Cant.</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-<!--item de ropa 1-->
-    <div class="container">
-      <div class="row">
-        <div class="col-md-9">
-          <div class="row border">
-            <div class="col-md-2 img-thumbnail">
-              <img src="img/amazon-dummy1.jpg" alt="">
-            </div>
-            <div class="col-md-4">
-              <ul>
-                <li><a><h4 class="text-primary">Camisa para Hombre</h4></a><small> por Join</small></li>
-                <li>Ropa para caballero</li>
-                <li><p class="text-success"><strong>Disponible</strong></p></li>
-                <li><input type="checkbox"> <small>Es un regalo</small></li>
-                <li><small><a href="#">Eliminar </a><i class="fa fa-arrows-v"></i> <a href="#"> Guardar para mas tarde</a></small></li>
-              </ul>
-            </div>
-            <div class="col-md-3 mt text-center">
-              <span class="text-danger"><strong>$376.00</strong></span>
-            </div>
-            <div class="col-md-3 mt text-center">
-              <select name="cantidad" id="">
+        <!--item de ropa 1-->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-9">
+              <div class="row border">
+                <div class="col-md-2 img-thumbnail">
+                  <img src="img/amazon-dummy1.jpg" alt="">
+                </div>
+                <div class="col-md-4">
+                  <ul>
+                    <li><a><h4 class="text-primary">Camisa para Hombre</h4></a><small> por Join</small></li>
+                    <li>Ropa para caballero</li>
+                    <li>
+                      <p class="text-success"><strong>Disponible</strong></p>
+                    </li>
+                    <li><input type="checkbox"> <small>Es un regalo</small></li>
+                    <li><small><a href="#">Eliminar </a><i class="fa fa-arrows-v"></i> <a href="#"> Guardar para mas tarde</a></small></li>
+                  </ul>
+                </div>
+                <div class="col-md-3 mt text-center">
+                  <span class="text-danger"><strong>$376.00</strong></span>
+                </div>
+                <div class="col-md-3 mt text-center">
+                  <select name="cantidad" id="">
                     <option value="1">1</option>
                     <option value="2">2</option>
-                    <option value="3">2</option>
+                    <option value="3">3</option>
               </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--item pantalla -->
+        <div class="container mt">
+          <div class="row">
+            <div class="col-md-9">
+              <div class="row border">
+                <div class="col-md-2 img-thumbnail">
+                  <img src="img/amazon-dummy2.jpg" alt="">
+                </div>
+                <div class="col-md-4">
+                  <ul>
+                    <li><a><h4 class="text-primary">Pantalla HD 50" puerto usb</h4></a><small> por Join</small></li>
+                    <li>Electrodomesticos</li>
+                    <li>
+                      <p class="text-success"><strong>Disponible</strong></p>
+                    </li>
+                    <li><input type="checkbox"> <small> Es un regalo</small></li>
+                    <li> <small><a href="#">Eliminar </a><i class="fa fa-arrows-v"></i> <a href="#"> Guardar para mas tarde</a></small></li>
+                  </ul>
+                </div>
+                <div class="col-md-3 mt text-center">
+                  <span class="text-danger"><strong>$37,000.00</strong></span>
+                </div>
+                <div class="col-md-3 mt text-center">
+                  <select name="cantidad" id="">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class=" col-md-3 col-md-offset-5">
+              <h4><strong>Subtotal (2 Productos): </strong></h4>
+            </div>
+            <div class=" col-md-2">
+              <h4 class="text-danger"><strong> $37,376.00</strong></h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-9"> <br>
+              <p><small>El precio y la disponibilidad de los productos de Amazon.com.mx estan sujetos a cambio. En el carrito de compras puedes dejar temporalmente los productos que quieras.
+              Aparecera el precio mas reciente de cada producto. Tienes una tarjeta de regalo o codigo promocional?
+              Te pediremos que introduzcas el codigo de canjeo al momento de realizar el pago.</small></p>
             </div>
           </div>
         </div>
       </div>
-    </div>
-<!--item pantalla -->
-<div class="container mt">
-  <div class="row">
-    <div class="col-md-9">
-      <div class="row border">
-        <div class="col-md-2 img-thumbnail">
-          <img src="img/amazon-dummy2.jpg" alt="">
-        </div>
-        <div class="col-md-4">
-          <ul>
-            <li><a><h4 class="text-primary">Pantalla HD 50" puerto usb</h4></a><small> por Join</small></li>
-            <li>Electrodomesticos</li>
-            <li><p class="text-success"><strong>Disponible</strong></p></li>
-            <li><input type="checkbox"> <small> Es un regalo</small></li>
-            <li> <small><a href="#">Eliminar </a><i class="fa fa-arrows-v"></i> <a href="#"> Guardar para mas tarde</a></small></li>
-          </ul>
-        </div>
-        <div class="col-md-3 mt text-center">
-          <span class="text-danger"><strong>$37,000.00</strong></span>
-        </div>
-        <div class="col-md-3 mt text-center">
-          <select name="cantidad" id="">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">2</option>
-          </select>
-        </div>
+
+      <div class="procederPago col-md-3 col-md-offset-1">
+        <form action="" class="forma">
+          <div class="forma">
+            <small><strong><i class="fa fa-check"></i>
+              <span class="text-success"> Tu pedido es elegible con envio GRATIS</span> <br>
+              <span class="text-primary ml">Comprueba los productos incluidos en la oferta</span><br>
+              <span class="ml"> Selecciona esta opcion al terminar el pedido</span></strong>
+            </small>
+          </div>
+          <div class="forma subtotal">
+            <h4>Subtotal (2 productos):</h4>
+            <h4 class="text-danger">$37,376.00</h4>
+            <div>
+              <input type="checkbox"><span><strong> Este pedido es un regalo</strong></span>
+            </div>
+            <div class="mt">
+              <button class="btn btn-warning btn-block">Proceder al pago</button>
+            </div>
+            <hr class="hr-o">
+            <p><strong><a href="#">Identificate </a>para activar el pedido en 1 click</strong></p>
+          </div>
+          <div class="forma">
+            <p><strong>Calcula tus impuestos y gastos de envio <i class="fa fa-angle-down"></i></strong></p>
+          </div>
+        </form>
       </div>
     </div>
-  </div>
-</div>
-
-
-
 
   </section>
+  <footer>
+      <div class="row blanco center" id="inicioPagina" >
+        <h6 class="col-md-2 col-md-offset-5"><stong>Inicio de página</strong></h6>
+      </div>
+      <div class="row blanco navbar-inverse"  id="conocenos">
+        <div class="col-md-2 col-md-offset-2">
+          <h5><strong>Conócenos</strong></h5>
+          <ul class="list-unstyled small">
+            <li>
+              <a href="#">Trabajar en Amazon</a>
+            </li>
+            <li>
+              <a href="#">Información corporativa</a>
+            </li>
+            <li>
+              <a href="#">Departamento de prensa</a>
+            </li>
+          </ul>
+        </div>
 
+        <div class="col-md-2">
+          <h5><strong>Gana dinero con nosotros</strong></h5>
+          <ul class="list-unstyled small">
+            <li>
+              <a href="#">Invita y Gana $150</a>
+            </li>
+            <li>
+              <a href="#">Vender en Amazon</a>
+            </li>
+            <li>
+              <a href="#">Publica tu libro en Kindle</a>
+            </li>
+            <li>
+              <a href="#" >Programa de afiliados</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h5 ><strong>Podemos ayudarte</strong></h5>
+          <ul class="list-unstyled small">
+            <li >
+              <a href="#">Devolver o reemplazar productos</a>
+            </li>
+            <li>
+              <a href="#">Amazon Prime</a>
+            </li>
+            <li>
+              <a href="#">Gestionar contenido y dispositivos</a>
+            </li>
+            <li>
+              <a href="#">Ayuda</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h5 class=""><strong>Métodos de pago</strong></h5>
+          <ul class="list-unstyled small">
+            <li class="nav_first">
+              <a href="#" >Tarjetas de crédito y débito</a>
+            </li>
+            <li>
+              <a href="#">Tarjetas de regalo</a>
+            </li>
+            <li> <a href="#">Meses sin intereses</a>
+            </li>
+          </ul>
+        </div>
+        <span class="divider"></span>
+      </div>
+
+      <div class="row navbar-inverse ">
+        <a href="#">
+          <img class="center-block" src="img/logo_footer.jpg">
+        </a>
+      </div>
+      <div class="row  navbar-inverse blanco small text-center" id="paises">
+        <a href="#">Australia</a> |
+        <a href="#">Alemania</a> |
+        <a href="#">Brasil</a> |
+        <a href="#">Canadá</a> |
+        <a href="#">China</a> |
+        <a href="#">España</a> |
+        <a href="#">Estados Unidos</a> |
+        <a href="#"> Francia </a> |
+        <a href="#">India</a> |
+        <a href="#">Italia</a> |
+        <a href="#">Japón</a> |
+        <a href="#">Países Bajos</a> |
+        <a href="#">Reino Unido</a><span class="texto-gris"> Y tambien:</span>
+        <a href="#">Amazon Web Services</a>
+      </div>
+      <div class="row navbar-inverse text-center small blanco" id="legales">
+        <a href="#">Condiciones de uso</a> |
+        <a href="#">Aviso de privacidad</a>
+        <span class="texto-gris">© 1996-2017, Amazon.com, Inc. o afiliados. Todos los derechos reservados.</span>
+      </div>
+
+
+  </footer>
 </body>
 
 </html>
