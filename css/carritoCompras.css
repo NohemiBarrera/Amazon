@@ -64,3 +64,44 @@ nav {
    top: -10px;
    color: #000;
 }
+
+/*footer*/
+#inicioPagina{
+   background-color:#37475a;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+#inicioPagina:hover{
+   background-color:#485769;
+}
+
+#conocenos{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: solid 1px #555;
+}
+.texto-gris{
+  color:#767676;
+  padding-left: 3%;
+  padding-right: 1%;
+}
+footer a{
+  color:white;
+  text-decoration:none;
+}
+footer a:hover{
+  color:white;
+  text-decoration-color:white;
+}
+
+footer img{
+  padding-top: 20px;
+}
+#paises{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#legales{
+  background-color: #222 !important;
+  padding: 15px;
+  }
