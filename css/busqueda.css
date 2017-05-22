@@ -1,12 +1,11 @@
 .contenido {
-  margin-top: 9%;
+  margin-top: 7%;
 }
-.arriba {
-  margin-top: -15%;
+.sizeInput {
+  width: 100%;
+  height: 5px;
 }
-.padding {
-  padding-left:30px;
-}
+
 .der {
   text-align: right;
 }

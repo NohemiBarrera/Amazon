@@ -16,6 +16,10 @@
 .ml-2{
     margin-left: 2%
 }
+
+.pl-3{
+    padding-left: 3%;
+}
 /*----Estilos globales para este index----*/
 
 
@@ -42,4 +46,19 @@
     color: #eb6f14;
 }
 
+.sinIncisos{
+    list-style: none;    
+}
+
+.contedorImagenesclientes img{
+    width: 7vw;    
+}
+
+.letraPunto8vw{
+    font-size: .8vw;
+}
+
+.block{
+    display: block;
+}
 /*-------Fin Estilos Mone-----*/
