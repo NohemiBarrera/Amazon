@@ -1,0 +1,64 @@
+/*----Estilos globales para este index----*/
+.mt-20{
+    margin-top: 20%;
+}
+.mt-10{
+    margin-top: 10%;
+}
+.mb-5{
+    margin-bottom: 5%;
+}
+
+.mt-7{
+    margin-top: 7%;
+}
+
+.ml-2{
+    margin-left: 2%
+}
+
+.pl-3{
+    padding-left: 3%;
+}
+/*----Estilos globales para este index----*/
+
+
+/*-------Inicio Estilos Mone-----*/
+.listaFotitos{
+	list-style: none;
+}
+.listaFotitos img {
+    height: 100%;
+    width: 100%;
+}
+
+.contenedorFoto img{
+    width: 20vw;  
+}
+
+.areaGaleria p{
+    margin-top: 10%;
+    font-size: 2vh;
+    font-family: sans-serif;
+}
+
+.orange{
+    color: #eb6f14;
+}
+
+.sinIncisos{
+    list-style: none;    
+}
+
+.contedorImagenesclientes img{
+    width: 7vw;    
+}
+
+.letraPunto8vw{
+    font-size: .8vw;
+}
+
+.block{
+    display: block;
+}
+/*-------Fin Estilos Mone-----*/
